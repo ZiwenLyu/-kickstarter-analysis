@@ -17,17 +17,18 @@ I created a pivot table and filtered data based on their parent category "theate
 
 ### Analysis of Outcomes Based on Goals
 I created an another table to view the campaigns of plays with differnt outcomes and their proportions. I created the goal amount range which is from the less than 1,000 dollars to the greather than 50,000 dollars, each group increases by 5,000 dollars, and I finally got 12 groups of plays campagins based on their goal amounts. According to the chart and the table, most goal amounts of campaigns of plays are under 10,000 dollars. From less than 1,000 to 19,999 dollars, there is a slow decrease in successful percentage from nearly 80% to 50%. And campaigns with goals of 20,000 to 34,999 dollars, and greater than 45,000 dollars have more failed ones than sucessful ones. 
-![Outcomes based on goals]()
+
+![Outcomes based on goals](https://github.com/ZiwenLyu/-kickstarter-analysis/blob/main/screen%20shot%20based%20on%20goals.png)
 
 ### Challenges and Difficulties Encountered
-In the analysis, I have difficulties to read the data and derive my own conclusions. And I cannot stop thinking why the data will look like that. For instance, the lines of failed and successful campaigns based on goals do not constantly go up or down but fluctuat. It takes me some time to figure out and find an explanation for that. It's because this is the percentage we are analyzing so the chart cannot reflect the size of total project bases. And that's something we will need to consider when choosing the suitable charts to see results. 
+In the analysis, I have difficultiy to read the data and derive my own conclusions. And I cannot stop thinking why the data will look like that. For instance, the lines of failed and successful campaigns based on goals do not constantly go up or down but fluctuat. It takes me some time to figure out and find an explanation for that. One reason I find is that it's because this is the percentage we are analyzing so the chart cannot reflect the size of total project bases. And that's something we will need to consider when choosing the suitable charts to see results. 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- Two conclusions drew from the Outcomes based on Launch Date: (1) Theater campaigns are likely to be more successful if they are launched in warmer months (Apr, May, Jun, July, Aug). (2) Failed theater campaigns are likely to have a constant count from 30 to 50. 
 
-- What can you conclude about the Outcomes based on Goals?
+- One conclusion from the Outcomes based on Goals: campaigns of plays with lower funding goal amounts are more likely to succeed.
 
-- What are some limitations of this dataset?
+- Some limitations of this dataset: Some live campaigns are not included in the analysis, so the analysis might be different with new data. Also, in analysis of outcomes based on goals, there are some outliers with much more goal amounts make the line fluctuate a lot.
 
-- What are some other possible tables and/or graphs that we could create?
+- Some other possible tables and/or graphs that we could create: In the outcomes based on goals analysis, we can create a bar chart based on the counts of successful, failed, canceled instead. The bar charts of outcome counts can clearly showing which goal amount range has most successful plays campaigns and we can easily compare successful and failed counts in each range.
