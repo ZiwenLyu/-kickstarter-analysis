@@ -10,17 +10,17 @@ All theater campaign outcomes can be grouped into sucessful, failed, canceled, a
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-I created a pivot table and filtered data based on their parent category "theater" and their monthly launch dates. According to the chart and the table, there are 839 successful theater campaigns, 493 failed theater campaigns, 37 canceled theater campaigns. Apparantly, from April to August, there is a peak in successful campaigns. In May, there are 111 successful campaigns. While in December, there are only 37 successful campaigns. 
+I created a pivot table and filtered data based on their parent category "theater" and their monthly launch dates. According to the chart and the table, there are 839 successful theater campaigns, 493 failed theater campaigns, 37 canceled theater campaigns. Apparantly, from April to August, successful campaigns are over 70. And there is a peak of successful campaigns in May, that is 111. While in December, there are only 37 successful campaigns. 
 
-![This is an image]()
+![Outcomes based on launch dates](https://github.com/ZiwenLyu/-kickstarter-analysis/blob/main/screen%20shot%20based%20on%20launch%20dates.png)
 
 
 ### Analysis of Outcomes Based on Goals
-I created an another table to see the counts of campaigns with differnt outcomes and their proportions. 
-
+I created an another table to view the campaigns of plays with differnt outcomes and their proportions. I created the goal amount range which is from the less than 1,000 dollars to the greather than 50,000 dollars, each group increases by 5,000 dollars, and I finally got 12 groups of plays campagins based on their goal amounts. According to the chart and the table, most goal amounts of campaigns of plays are under 10,000 dollars. From less than 1,000 to 19,999 dollars, there is a slow decrease in successful percentage from nearly 80% to 50%. And campaigns with goals of 20,000 to 34,999 dollars, and greater than 45,000 dollars have more failed ones than sucessful ones. 
+![Outcomes based on goals]()
 
 ### Challenges and Difficulties Encountered
-
+In the analysis, I have difficulties to read the data and derive my own conclusions. And I cannot stop thinking why the data will look like that. For instance, the lines of failed and successful campaigns based on goals do not constantly go up or down but fluctuat. It takes me some time to figure out and find an explanation for that. It's because this is the percentage we are analyzing so the chart cannot reflect the size of total project bases. And that's something we will need to consider when choosing the suitable charts to see results. 
 
 ## Results
 
